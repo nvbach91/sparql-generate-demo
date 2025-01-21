@@ -1,0 +1,13 @@
+<http://ontology.example.net/artist/Robert_Theodore_McCall> <http://www.w3.org/2000/01/rdf-schema#label> "Robert Theodore McCall" .
+<http://ontology.example.net/artist/Robert_Theodore_McCall> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ontology.example.net/art/Artist> .
+<http://ontology.example.net/art/2009_Neil_Armstrong> <http://ontology.example.net/art/hasAuthor> <http://ontology.example.net/artist/Robert_Theodore_McCall> .
+<http://ontology.example.net/art/2009_Neil_Armstrong> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ontology.example.net/art/Work> .
+<http://ontology.example.net/artist/Nahum_Ball_Onthank> <http://www.w3.org/2000/01/rdf-schema#label> "Nahum Ball Onthank" .
+<http://ontology.example.net/artist/Nahum_Ball_Onthank> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ontology.example.net/art/Artist> .
+<http://ontology.example.net/art/1857_Henry_Larcom_Abbot> <http://ontology.example.net/art/hasAuthor> <http://ontology.example.net/artist/Nahum_Ball_Onthank> .
+<http://ontology.example.net/art/1857_Henry_Larcom_Abbot> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ontology.example.net/art/Work> .
+<http://ontology.example.net/artist/Ronald_Anderson> <http://www.w3.org/2000/01/rdf-schema#label> "Ronald Anderson" .
+<http://ontology.example.net/artist/Ronald_Anderson> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ontology.example.net/art/Artist> .
+<http://ontology.example.net/art/Artist> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://ontology.example.net/core/Person> .
+<http://ontology.example.net/art/1969_Apollo_11_Crew> <http://ontology.example.net/art/hasAuthor> <http://ontology.example.net/artist/Ronald_Anderson> .
+<http://ontology.example.net/art/1969_Apollo_11_Crew> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ontology.example.net/art/Work> .

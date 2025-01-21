@@ -1,0 +1,53 @@
+{
+    "@graph": [
+        {
+            "@id": "artist:Robert_Theodore_McCall",
+            "rdfs:label": "Robert Theodore McCall",
+            "@type": "art:Artist"
+        },
+        {
+            "@id": "art:Artist",
+            "rdfs:subClassOf": {
+                "@id": "core:Person"
+            }
+        },
+        {
+            "@id": "art:2009_Neil_Armstrong",
+            "art:hasAuthor": {
+                "@id": "artist:Robert_Theodore_McCall"
+            },
+            "@type": "art:Work"
+        },
+        {
+            "@id": "artist:Nahum_Ball_Onthank",
+            "rdfs:label": "Nahum Ball Onthank",
+            "@type": "art:Artist"
+        },
+        {
+            "@id": "art:1857_Henry_Larcom_Abbot",
+            "art:hasAuthor": {
+                "@id": "artist:Nahum_Ball_Onthank"
+            },
+            "@type": "art:Work"
+        },
+        {
+            "@id": "artist:Ronald_Anderson",
+            "rdfs:label": "Ronald Anderson",
+            "@type": "art:Artist"
+        },
+        {
+            "@id": "art:1969_Apollo_11_Crew",
+            "art:hasAuthor": {
+                "@id": "artist:Ronald_Anderson"
+            },
+            "@type": "art:Work"
+        }
+    ],
+    "@context": {
+        "core": "http://ontology.example.net/core/",
+        "art": "http://ontology.example.net/art/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "ite": "http://w3id.org/sparql-generate/iter/",
+        "artist": "http://ontology.example.net/artist/"
+    }
+}

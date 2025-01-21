@@ -1,0 +1,11 @@
+{
+  "base": "http://ontology.example.net/",
+  "query": "./query.sparql",
+  "documentset": [
+    {
+      "uri": "http://ontology.example.net/arts#0",
+      "mediatype": "application/json",
+      "path": "input/data.json"
+    }
+  ]
+}

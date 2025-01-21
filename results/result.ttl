@@ -1,0 +1,31 @@
+@prefix art:    <http://ontology.example.net/art/> .
+@prefix artist: <http://ontology.example.net/artist/> .
+@prefix core:   <http://ontology.example.net/core/> .
+@prefix ite:    <http://w3id.org/sparql-generate/iter/> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+
+artist:Robert_Theodore_McCall
+        a           art:Artist;
+        rdfs:label  "Robert Theodore McCall" .
+
+art:2009_Neil_Armstrong
+        a              art:Work;
+        art:hasAuthor  artist:Robert_Theodore_McCall .
+
+artist:Nahum_Ball_Onthank
+        a           art:Artist;
+        rdfs:label  "Nahum Ball Onthank" .
+
+art:1857_Henry_Larcom_Abbot
+        a              art:Work;
+        art:hasAuthor  artist:Nahum_Ball_Onthank .
+
+artist:Ronald_Anderson
+        a           art:Artist;
+        rdfs:label  "Ronald Anderson" .
+
+art:Artist  rdfs:subClassOf  core:Person .
+
+art:1969_Apollo_11_Crew
+        a              art:Work;
+        art:hasAuthor  artist:Ronald_Anderson .

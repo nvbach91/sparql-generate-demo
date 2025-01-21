@@ -1,0 +1,26 @@
+PREFIX ite: <http://w3id.org/sparql-generate/iter/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX art: <http://ontology.example.net/art/>
+PREFIX artist: <http://ontology.example.net/artist/>
+PREFIX core: <http://ontology.example.net/core/>
+
+GENERATE {
+  art:Artist rdfs:subClassOf core:Person .
+
+  ?artist a art:Artist .
+  ?artist rdfs:label ?artistName .
+
+  ?work a art:Work .
+  ?work rdfs:label ?title .
+  ?work art:hasAuthor ?artist .
+}
+
+ITERATOR ite:JSONPath(
+  <http://ontology.example.net/arts#0>,
+  '$[*]', '$.Artist', '$.Title', '$.DateOfWork'
+) AS ?workObject ?artistName ?workTitle ?DateOfWork
+
+WHERE {
+  BIND (<http://ontology.example.net/artist/{ REPLACE( ?artistName , ' ' , '_' ) }> AS ?artist)
+  BIND (<http://ontology.example.net/art/{ ?DateOfWork }_{ REPLACE( ?workTitle , ' ' , '_' ) }> AS ?work)
+}
