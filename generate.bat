@@ -27,8 +27,8 @@ if not exist "%dirPath%" (
     mkdir "%dirPath%"
 )
 
-java ^
-    -jar sparql-generate-2.1.0.jar ^
+C:\utilities\jdk-23.0.1\bin\java.exe ^
+    -jar C:\utilities\sparql-generate-2.1.0\sparql-generate-2.1.0.jar ^
     -d . ^
     -o .\results\result.%format% -fo %format%
 

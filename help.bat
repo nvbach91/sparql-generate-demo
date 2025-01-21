@@ -1,1 +1,1 @@
-java -jar sparql-generate-2.1.0.jar -h
+C:\utilities\jdk-23.0.1\bin\java.exe -jar C:\utilities\sparql-generate-2.1.0\sparql-generate-2.1.0.jar -h
