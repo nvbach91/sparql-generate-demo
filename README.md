@@ -17,7 +17,7 @@ A demo on how to use [SPARQL Generate](https://github.com/sparql-generate/sparql
 - download `JDK 23` build and unzip it to `C:\utilities\` so that you have `C:\utilities\jdk-23.0.1\`
 - create directory `C:\utilities\sparql-generate-2.1.0\`
 - download `sparql-generate-2.1.0.jar` build and move it to `C:\utilities\sparql-generate-2.1.0\` so that you have `C:\utilities\sparql-generate-2.1.0\sparql-generate-2.1.0.jar`
-- in the directory `C:\utilities\`, clone this demo repository using GitHub Desktop or by running `cmd` command `git clone https://github.com/nvbach91/sparql-generate-demo.git` (this will create a folder `sparql-generate-demo` in your current working directory)
+- in the directory `C:\utilities\` clone this demo repository using GitHub Desktop or by running command `git clone https://github.com/nvbach91/sparql-generate-demo.git` in `cmd` (this will create a folder `sparql-generate-demo` in your current working directory)
 
 ```bat
 C:\> cd C:\utilities
