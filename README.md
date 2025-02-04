@@ -42,25 +42,13 @@ OpenJDK 64-Bit Server VM (build 23+37-2369, mixed mode, sharing)
 
 - VS Code is recommended for query editing - download VS Code and open the `C:\utilities\sparql-generate-demo\` directory in it
 - input data files are located in the `.\input\` folder
-- to use these data files as input for SPARQL Generate, you have to configure IRIs that points to the location of those files in the `.\sparql-generate-conf.json` in the `documentset` section
+- to use these data files as input for SPARQL Generate, you have to configure IRIs that points to the location of those files in the `documentset` section in the `.\sparql-generate-conf.json` configuration file
 - open `.\query.sparql` file in VS Code to edit the SPARQL Generate query
 
 
 ## Generate RDF in different serializations
 
-- open a `cmd` integrated terminal in VS Code by pressing ``Ctrl + Shift + ` ``
-- use the `.\help.bat` command to test-run the tool
-```bat
-C:\utilities\sparql-generate-demo> .\help.bat
-usage: SPARQL-Generate processor
- -ao,--append-output         Write from the end of the output file,
-                             instead of replacing it.
- -b,--base <arg>             Base URI of the working directory. If set,
-                             each file in the working directory is
-                             identified by a URI resolved against the
-                             base.
-...
-```
+- open a integrated terminal in VS Code by pressing ``Ctrl + Shift + ` ``
 - use the `.\generate.bat` command to run the program
 ```bat
 C:\utilities\sparql-generate-demo> .\generate.bat         # generate result in format ttl
@@ -75,3 +63,22 @@ C:\utilities\sparql-generate-demo> .\generate.bat nt      # generate result in f
 
 - https://ci.mines-stetienne.fr/sparql-generate
 - Remember to not accidentally upload confidential data to the playground
+
+
+
+<!--
+
+- use the `.\help.bat` command to test-run the tool
+```bat
+C:\utilities\sparql-generate-demo> .\help.bat
+usage: SPARQL-Generate processor
+ -ao,--append-output         Write from the end of the output file,
+                             instead of replacing it.
+ -b,--base <arg>             Base URI of the working directory. If set,
+                             each file in the working directory is
+                             identified by a URI resolved against the
+                             base.
+...
+```
+
+-->
