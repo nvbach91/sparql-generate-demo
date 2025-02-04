@@ -5,6 +5,7 @@ A demo on how to use [SPARQL Generate](https://github.com/sparql-generate/sparql
 
 ## Software requirements
 
+- [Git client](https://git-scm.com/downloads) or [GitHub desktop](https://desktop.github.com/download/) to clone this repository
 - [JDK 23](https://jdk.java.net/23/)
 - [sparql-generate-2.1.0](https://github.com/sparql-generate/sparql-generate/tags)
 - [VS Code](https://code.visualstudio.com/)
@@ -24,6 +25,8 @@ C:\utilities> git clone https://github.com/nvbach91/sparql-generate-demo.git
 C:\utilities> cd sparql-generate-demo
 C:\utilities\sparql-generate-demo>
 ```
+
+![image](https://github.com/user-attachments/assets/908d29eb-d4e1-45a5-8843-ab076bf40c43)
 
 - check your JDK 23.0.1 installation
 
