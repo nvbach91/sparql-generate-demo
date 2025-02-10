@@ -6,7 +6,7 @@ A demo on how to use [SPARQL Generate](https://github.com/sparql-generate/sparql
 ## Software requirements
 
 - [Git client](https://git-scm.com/downloads) or [GitHub desktop](https://desktop.github.com/download/) to clone this repository
-- [JDK 23](https://jdk.java.net/23/)
+- [JDK 23](https://jdk.java.net/23/) - download specific [version 23.0.2](https://download.java.net/java/GA/jdk23.0.2/6da2a6609d6e406f85c491fcb119101b/7/GPL/openjdk-23.0.2_windows-x64_bin.zip)
 - [sparql-generate-2.1.0](https://github.com/sparql-generate/sparql-generate/tags)
 - [VS Code](https://code.visualstudio.com/)
 
@@ -14,7 +14,7 @@ A demo on how to use [SPARQL Generate](https://github.com/sparql-generate/sparql
 ## Installation
 
 - create directory `C:\utilities\` (exactly)
-- download `JDK 23` build and unzip it to `C:\utilities\` so that you have `C:\utilities\jdk-23.0.1\`
+- download `JDK 23` build and unzip it to `C:\utilities\` so that you have `C:\utilities\jdk-23.0.2\`
 - create directory `C:\utilities\sparql-generate-2.1.0\`
 - download `sparql-generate-2.1.0.jar` build and move it to `C:\utilities\sparql-generate-2.1.0\` so that you have `C:\utilities\sparql-generate-2.1.0\sparql-generate-2.1.0.jar`
 - in the directory `C:\utilities\` clone this demo repository using GitHub Desktop or by running command `git clone https://github.com/nvbach91/sparql-generate-demo.git` in `cmd` (this will create a folder `sparql-generate-demo` in your current working directory)
@@ -28,10 +28,10 @@ C:\utilities\sparql-generate-demo>
 
 ![image](https://github.com/user-attachments/assets/908d29eb-d4e1-45a5-8843-ab076bf40c43)
 
-- check your JDK 23.0.1 installation
+- check your JDK 23.0.2 installation
 
 ```bash
-C:\utilities\sparql-generate-demo> C:\utilities\jdk-23.0.1\bin\java -version
+C:\utilities\sparql-generate-demo> C:\utilities\jdk-23.0.2\bin\java -version
 openjdk version "23" 2024-09-17
 OpenJDK Runtime Environment (build 23+37-2369)
 OpenJDK 64-Bit Server VM (build 23+37-2369, mixed mode, sharing)
