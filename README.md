@@ -7,7 +7,7 @@ A demo on how to use [SPARQL Generate](https://github.com/sparql-generate/sparql
 
 - [Git client](https://git-scm.com/downloads) or [GitHub desktop](https://desktop.github.com/download/) to clone this repository
 - [JDK 23](https://jdk.java.net/23/) - download specific [version 23.0.2](https://download.java.net/java/GA/jdk23.0.2/6da2a6609d6e406f85c491fcb119101b/7/GPL/openjdk-23.0.2_windows-x64_bin.zip)
-- [sparql-generate-2.1.0](https://github.com/sparql-generate/sparql-generate/tags)
+- [sparql-generate-2.1.0](https://github.com/sparql-generate/sparql-generate/tags) - download specific [version 2.1.0](https://github.com/sparql-generate/sparql-generate/releases/tag/2.1.0)
 - [VS Code](https://code.visualstudio.com/)
 
 
